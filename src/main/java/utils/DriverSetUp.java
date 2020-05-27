@@ -13,7 +13,7 @@ public class DriverSetUp {
     public void setUP() {
 
         try {
-            System.setProperty("webdriver.chrome.driver", "C:/driver/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/driver/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
@@ -30,6 +30,10 @@ public class DriverSetUp {
 
     public static void setDriver(WebDriver driver) {
         DriverSetUp.driver = driver;
+    }
+
+    public static void killDriver(){
+        DriverSetUp.driver.close();
     }
 
 }
