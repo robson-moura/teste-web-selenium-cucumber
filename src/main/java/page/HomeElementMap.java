@@ -17,4 +17,5 @@ public class HomeElementMap {
 	@FindBy(id="tempo")
 	protected WebElement inputTextValorTempo;
 
+
 }

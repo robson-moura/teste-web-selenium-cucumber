@@ -9,5 +9,8 @@
         <module name="TesteQaSicredi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TesteQaSicredi" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

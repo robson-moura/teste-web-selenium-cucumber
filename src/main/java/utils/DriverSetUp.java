@@ -10,7 +10,6 @@ public class DriverSetUp {
 
     static WebDriver driver;
 
-    @BeforeTest
     public void setUP() {
 
         try {

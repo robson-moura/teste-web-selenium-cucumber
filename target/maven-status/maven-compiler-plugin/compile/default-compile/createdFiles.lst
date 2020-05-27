@@ -1,3 +1,5 @@
-HomePage.class
-utils\SetUp.class
-HomeElementMap.class
+utils\DriverSetUp.class
+page\HomePageActions.class
+test\TestRunnerNG.class
+page\HomeElementMap.class
+steps\HomeSteps.class
